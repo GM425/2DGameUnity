@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 88cdfab5472cd694a86e6ed426db82a6
+guid: 8c3ddb58b8c0e1747b9db69381164db1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 111547774234896091
-    second: DragonWeed_0
+      213: -6765704199573798838
+    second: cherokee_bill_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DragonWeed_0
+      name: cherokee_bill_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 750
-        height: 1050
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd6a1c21c1c4c8100800000000000000
-      internalID: 111547774234896091
+      spriteID: a40090170e36b12a0800000000000000
+      internalID: -6765704199573798838
       vertices: []
       indices: 
       edges: []

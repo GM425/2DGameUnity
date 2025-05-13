@@ -10,36 +10,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
-  m_Name: Jessie Evans
+  m_Name: BillyTheKid
   m_EditorClassIdentifier: 
-  cardName: Jessie Evans
-  cost: 4
+  cardName: 
+  cost: 0
   faceUp: 0
-  image: 
-  cardType: character
-  characterId: 1
-  typesCharacter:
-  - Thief
-  accuracy: 11
-  draw: 24
-  combat: 6
-  toughness: 7
+  imageBase: {fileID: 0}
+  cardType: 
+  characterId: 0
+  typesCharacter: []
+  accuracy: 0
+  draw: 0
+  combat: 0
+  toughness: 0
   powerUps: []
   damage: 0
-  temperment: HH
-  alcoholism: 13
-  lust: 11
-  treachory: 13
+  temperment: 
+  alcoholism: 0
+  lust: 0
+  treachory: 0
   effectAttached: 0
   effectId: 0
   firearmLevel: 0
   combatWeaponLevel: 0
   notoriety: 0
-  affiliations:
-  - TB
-  color: Red
-  theftWealth: 050000000700000002000000
+  affiliations: []
+  color: 
+  resourceIcon1: {fileID: 0}
+  resourceIcon2: {fileID: 0}
+  theftWealth: 
   theftPreciousMetals: 
-  theftCattle: 0c0000000600000003000000
+  theftCattle: 
   theftInvestment: 
-  theftOther: 050000000700000002000000
+  theftOther: 

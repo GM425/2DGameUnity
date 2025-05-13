@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fb96aa3f431f7b44d8bfa64f74277215
+guid: 83d0839b72c3be64ab191bb1a26de4fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3342176260040906348
-    second: ThistleBerry_0
+      213: -3305964861373879250
+    second: CombatDuel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ThistleBerry_0
+      name: CombatDuel_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 750
-        height: 1050
+        x: 34
+        y: 14
+        width: 338
+        height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c665b74d99bc16e20800000000000000
-      internalID: 3342176260040906348
+      spriteID: e2ce2ed697ade12d0800000000000000
+      internalID: -3305964861373879250
       vertices: []
       indices: 
       edges: []

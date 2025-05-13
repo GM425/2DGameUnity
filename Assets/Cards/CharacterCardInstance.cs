@@ -1,12 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Data.Common;
 
 public class CharacterCardInstance : CardInstance
 {
     public string cardName;
     public int cost;
     public bool faceUp;
-    public Sprite imageFull;
     public Sprite imageBase;
     public string cardType;
     public int characterId;
@@ -28,6 +28,8 @@ public class CharacterCardInstance : CardInstance
     public int notoriety;
     public List<string> affiliations;
     public string color;
+    public Sprite resourceIcon1;
+    public Sprite resourceIcon2;
     public List<int> theftWealth;
     public List<int> theftPreciousMetals;
     public List<int> theftCattle;
@@ -39,7 +41,6 @@ public class CharacterCardInstance : CardInstance
         cardName = data.cardName;
         cost = data.cost;
         faceUp = data.faceUp;
-        imageFull = data.imageFull;
         imageBase = data.imageBase;
         cardType = data.cardType;
         characterId = data.characterId;
@@ -61,6 +62,8 @@ public class CharacterCardInstance : CardInstance
         notoriety = data.notoriety;
         affiliations = data.affiliations;
         color = data.color;
+        resourceIcon1 = data.resourceIcon1;
+        resourceIcon2 = data.resourceIcon2;
         theftWealth = data.theftWealth;
         theftPreciousMetals = data.theftPreciousMetals;
         theftCattle = data.theftCattle;

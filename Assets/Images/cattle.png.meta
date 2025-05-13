@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7875655441e1a8f44afdffaed1643215
+guid: 5fcc0ec5b6668934698c3e2bc8fb4129
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2390660796659153139
-    second: SwampRose_0
+      213: -5723303571347355426
+    second: cattle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SwampRose_0
+      name: cattle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 750
-        height: 1050
+        x: 105
+        y: 362
+        width: 568
+        height: 568
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d07cda4fbaaa2ded0800000000000000
-      internalID: -2390660796659153139
+      spriteID: ed8cd18a9bdb290b0800000000000000
+      internalID: -5723303571347355426
       vertices: []
       indices: 
       edges: []

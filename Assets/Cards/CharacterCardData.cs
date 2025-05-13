@@ -24,6 +24,8 @@ public class CharacterCardData : CardData
     public int notoriety;
     public List<string> affiliations;
     public string color;
+    public Sprite resourceIcon1;
+    public Sprite resourceIcon2;
     public List<int> theftWealth;
     public List<int> theftPreciousMetals;
     public List<int> theftCattle;
