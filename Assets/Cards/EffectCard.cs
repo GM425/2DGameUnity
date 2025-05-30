@@ -3,8 +3,12 @@ using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "Cards/EffectCard")]
 
-public class EffectCardData : CardData
+public class EffectCard : ScriptableObject
 {
+    public string cardName;
+    public int cost;
+    public bool faceUp;
+    public Sprite imageBase;
     public string cardType;
     public string effectType;
     public int effectId;
@@ -15,4 +19,5 @@ public class EffectCardData : CardData
     public List<string> successEffect;
     public bool characterAttached;
     public int characterAttachedId;
+    public string description;
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class EffectCardInstance : CardInstance
+public class EffectCardInstance
 {
     public string cardType;
     public string effectType;
@@ -13,16 +13,18 @@ public class EffectCardInstance : CardInstance
     public List<string> successEffect;
     public bool characterAttached;
     public int characterAttachedId;
-        public EffectCardInstance(EffectCardData data) : base(data){
-            cardType = data.cardType;
-            effectType = data.effectType;
-            effectId = data.effectId;
-            conditionsPlay = data.conditionsPlay;
-            conditionsTriggers = data.conditionsTriggers;
-            triggersContinuous = data.triggersContinuous;
-            triggerSuccess = data.triggerSuccess;
-            successEffect = data.successEffect;
-            characterAttached = data.characterAttached;
-            characterAttachedId = data.characterAttachedId;
+    public string description;
+        public EffectCardInstance(EffectCard effect){
+            cardType = effect.cardType;
+            effectType = effect.effectType;
+            effectId = effect.effectId;
+            conditionsPlay = effect.conditionsPlay;
+            conditionsTriggers = effect.conditionsTriggers;
+            triggersContinuous = effect.triggersContinuous;
+            triggerSuccess = effect.triggerSuccess;
+            successEffect = effect.successEffect;
+            characterAttached = effect.characterAttached;
+            characterAttachedId = effect.characterAttachedId;
+            description = effect.description;
         }
 }

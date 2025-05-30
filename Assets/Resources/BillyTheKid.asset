@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
+  m_Name: BillyTheKid
+  m_EditorClassIdentifier: 
+  cardName: Billy the Kid
+  cost: 10
+  faceUp: 0
+  imageBase: {fileID: -4464218376766894232, guid: 4226f34422e79e141ba7bd5819d1214c, type: 3}
+  cardType: Character
+  characterId: 1
+  typesCharacter:
+  - Th
+  accuracy: 13
+  draw: 24
+  combat: 6
+  toughness: 7
+  powerUps: []
+  damage: 0
+  temperment: MT
+  alcoholism: 12
+  lust: 15
+  treachory: 3
+  effectAttached: 0
+  effectId: 0
+  firearmLevel: 0
+  combatWeaponLevel: 0
+  notoriety: 0
+  affiliations:
+  - LCReg
+  - LCRus
+  color: red
+  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
+  resourceIcon2: {fileID: -5723303571347355426, guid: 5fcc0ec5b6668934698c3e2bc8fb4129, type: 3}
+  theftWealth: 060000000800000002000000
+  theftPreciousMetals: 
+  theftCattle: 0f0000000600000002000000
+  theftInvestment: 
+  theftOther: 

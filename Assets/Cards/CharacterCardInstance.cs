@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Data.Common;
 
-public class CharacterCardInstance : CardInstance
+public class CharacterCardInstance
 {
     public string cardName;
     public int cost;
@@ -15,7 +15,11 @@ public class CharacterCardInstance : CardInstance
     public int draw;
     public int combat;
     public int toughness;
-    public List<string> powerUps;
+    public bool hold;
+    public bool holdType;
+    public int holdWealth;
+    public int holdTrip;
+    public int holdCurrent;
     public int damage;
     public string temperment;
     public int alcoholism;
@@ -36,39 +40,42 @@ public class CharacterCardInstance : CardInstance
     public List<int> theftInvestment;
     public List<int> theftOther;
 
-    public CharacterCardInstance(CharacterCardData data) : base(data)
+    public CharacterCardInstance(CharacterCard characterCard)
     {
-        cardName = data.cardName;
-        cost = data.cost;
-        faceUp = data.faceUp;
-        imageBase = data.imageBase;
-        cardType = data.cardType;
-        characterId = data.characterId;
-        typesCharacter = data.typesCharacter;
-        accuracy = data.accuracy;
-        draw = data.draw;
-        combat = data.combat;
-        toughness = data.toughness;
-        powerUps = data.powerUps;
-        damage = data.damage;
-        temperment = data.temperment;
-        alcoholism = data.alcoholism;
-        lust = data.lust;
-        treachory = data.treachory;
-        effectAttached = data.effectAttached;
-        effectId = data.effectId;
-        firearmLevel = data.firearmLevel;
-        combatWeaponLevel = data.combatWeaponLevel;
-        notoriety = data.notoriety;
-        affiliations = data.affiliations;
-        color = data.color;
-        resourceIcon1 = data.resourceIcon1;
-        resourceIcon2 = data.resourceIcon2;
-        theftWealth = data.theftWealth;
-        theftPreciousMetals = data.theftPreciousMetals;
-        theftCattle = data.theftCattle;
-        theftInvestment = data.theftInvestment;
-        theftOther = data.theftOther;
-
+        cardName = characterCard.cardName;
+        cost = characterCard.cost;
+        faceUp = characterCard.faceUp;
+        imageBase = characterCard.imageBase;
+        cardType = characterCard.cardType;
+        characterId = characterCard.characterId;
+        typesCharacter = characterCard.typesCharacter;
+        accuracy = characterCard.accuracy;
+        draw = characterCard.draw;
+        combat = characterCard.combat;
+        toughness = characterCard.toughness;
+        hold = false;
+        holdType = false;
+        holdWealth = 0;
+        holdTrip = 0;
+        holdCurrent = 0;
+        damage = 0;
+        temperment = characterCard.temperment;
+        alcoholism = characterCard.alcoholism;
+        lust = characterCard.lust;
+        treachory = characterCard.treachory;
+        effectAttached = false;
+        effectId = 0;
+        firearmLevel = 0;
+        combatWeaponLevel = 0;
+        notoriety = 0;
+        affiliations = characterCard.affiliations;
+        color = characterCard.color;
+        resourceIcon1 = characterCard.resourceIcon1;
+        resourceIcon2 = characterCard.resourceIcon2;
+        theftWealth = characterCard.theftWealth;
+        theftPreciousMetals = characterCard.theftPreciousMetals;
+        theftCattle = characterCard.theftCattle;
+        theftInvestment = characterCard.theftInvestment;
+        theftOther = characterCard.theftOther;
     }
 }

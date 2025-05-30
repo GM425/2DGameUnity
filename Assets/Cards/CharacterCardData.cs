@@ -2,8 +2,12 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "Cards/CharacterCard")]
-public class CharacterCardData : CardData
+public class CharacterCard : ScriptableObject
 {
+    public string cardName;
+    public int cost;
+    public bool faceUp;
+    public Sprite imageBase;
     public string cardType;
     public int characterId;
     public List<string> typesCharacter;
@@ -11,7 +15,6 @@ public class CharacterCardData : CardData
     public int draw;
     public int combat;
     public int toughness;
-    public List<string> powerUps;
     public int damage;
     public string temperment;
     public int alcoholism;

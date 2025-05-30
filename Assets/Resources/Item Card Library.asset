@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be7fdeda2f48b8c49b4936bbb32c7934, type: 3}
-  m_Name: CharacterCardLibary
+  m_Script: {fileID: 11500000, guid: 8e9803f568be30341853a60c89bd3df8, type: 3}
+  m_Name: Item Card Library
   m_EditorClassIdentifier: 
-  allCards: []
+  entries:
+  - {fileID: 11400000, guid: 1a247b9fddacbaa499dab2930ce917a0, type: 2}
