@@ -1,8 +1,8 @@
-// using UnityEngine;
-// using UnityEngine.UI;
-// using TMPro;
-// using System;
-// using UnityEditor.ShaderGraph;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System;
+using UnityEditor.ShaderGraph;
 
 
 // public class EntryItemUI : MonoBehaviour
@@ -140,9 +140,58 @@
 //                 affiliations.text = data.affiliations[0];
 //             }
 //         }
- 
-        
-        
+
+
+
 //     }
-    
+
 // }
+
+public class EntryItemUI : MonoBehaviour
+{
+    public TextMeshProUGUI cardNameText;
+
+    public Button viewButton;
+    public Button addButton;
+
+    private CharacterCard cardData;
+    private EntryListPopulator populator;
+    public Image namePanel;
+    public TextMeshProUGUI nameCard;
+
+    public void Setup(CharacterCard data, EntryListPopulator populatorRef)
+    {
+        cardData = data;
+        populator = populatorRef;
+        namePanel = GetComponentInChildren<Image>();
+        nameCard = GetComponentInChildren<TextMeshProUGUI>();
+            Debug.Log("Character Name: " + data.name);
+
+
+        if (cardData is CharacterCard baseData)
+        {
+            Debug.Log("If Statement ran for -" + baseData.cardName);
+
+            nameCard.text = baseData.cardName;
+            if (baseData.color == "Red") {
+                namePanel.color = new Color32(128, 0, 0, 255);
+            } else if (baseData.color == "Blue") {
+                namePanel.color = new Color32(0, 0, 204, 255);
+
+            } else if (baseData.color == "Green") {
+                namePanel.color = new Color32(0, 102, 34, 255);
+
+            } else if (baseData.color == "Orange") {
+                namePanel.color = new Color32(204, 104, 0, 255);
+
+            } else {
+                namePanel.color = new Color32(150, 150, 150, 255);
+
+            }
+
+        }
+
+        // previewButton.onClick.AddListener(() => populator.ShowPreview(cardData));
+        // addToDeckButton.onClick.AddListener(() => populator.AddToDeck(cardData));
+    }
+}

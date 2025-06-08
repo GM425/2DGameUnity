@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
+  m_Name: PokerAlice
+  m_EditorClassIdentifier: 
+  cardName: Poker Alice
+  cost: 6
+  imageBase: {fileID: 8632019473753314081, guid: 3babbbf9ae6763946b7695573097f01a, type: 3}
+  cardType: Character
+  characterId: 5
+  typesCharacter:
+  - Gambler
+  skillType1: 0
+  skillType2: 0
+  accuracy: 0
+  draw: 0
+  combat: 0
+  toughness: 0
+  temperment: 
+  alcoholism: 0
+  lust: 0
+  treachory: 0
+  affiliations: []
+  color: 
+  resourceIcon1: {fileID: 0}
+  resourceIcon2: {fileID: 0}
+  theftWealth: 
+  theftPreciousMetals: 
+  theftCattle: 
+  theftInvestment: 
+  theftOther: 

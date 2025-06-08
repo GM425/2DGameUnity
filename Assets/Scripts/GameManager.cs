@@ -15,10 +15,12 @@ public class GameManager : NetworkBehaviour
 {
     public static GameManager Instance;
 
-    public Dictionary<ulong, List<CardInstance>> playerDecks = new Dictionary<ulong, List<CardInstance>>();
+    public Dictionary<ulong, NetworkList<int>> playerDecks = new Dictionary<ulong, NetworkList<int>>();
 
 
     public NetworkVariable<GameState> CurrentGameState = new NetworkVariable<GameState>(GameState.WaitingForPlayers);
+    public NetworkList<CharacterCardData> allCharacterCardsChosen = new NetworkList<CharacterCardData>();
+
 
     private void Awake()
     {
@@ -49,7 +51,7 @@ public class GameManager : NetworkBehaviour
         SetNextTurn();
     }
 
-    public void SetPlayerDeck(ulong clientId, List<CardInstance> deck)
+    public void SetPlayerDeck(ulong clientId, NetworkList<int> deck)
     {
         playerDecks[clientId] = deck;
     }

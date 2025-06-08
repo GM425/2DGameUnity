@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
+  m_Name: JessieJames
+  m_EditorClassIdentifier: 
+  cardName: Jessie James
+  cost: 7
+  imageBase: {fileID: 2809278336086201601, guid: 4da850a1e46954748bf94881bd712447, type: 3}
+  cardType: Character
+  characterId: 2
+  typesCharacter:
+  - Thief
+  accuracy: 13
+  draw: 24
+  combat: 7
+  toughness: 8
+  temperment: HH
+  alcoholism: 14
+  lust: 12
+  treachory: 3
+  affiliations:
+  - JYG
+  color: Blue
+  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
+  resourceIcon2: {fileID: 0}
+  theftWealth: 0d0000000900000004000000
+  theftPreciousMetals: 
+  theftCattle: 
+  theftInvestment: 
+  theftOther: 

@@ -11,6 +11,8 @@ public class CharacterCardInstance
     public string cardType;
     public int characterId;
     public List<string> typesCharacter;
+    public int skillType1;
+    public int skillType2;
     public int accuracy;
     public int draw;
     public int combat;
@@ -25,9 +27,12 @@ public class CharacterCardInstance
     public int alcoholism;
     public int lust;
     public int treachory;
-    public bool effectAttached;
-    public int effectId;
-    public int firearmLevel;
+    public bool managing;
+    public int managingId;
+    public int closeCombat1Level;
+    public int closeCombat2Level;
+    public int pistolLevel;
+    public int rifleLevel;
     public int combatWeaponLevel;
     public int notoriety;
     public List<string> affiliations;
@@ -44,11 +49,12 @@ public class CharacterCardInstance
     {
         cardName = characterCard.cardName;
         cost = characterCard.cost;
-        faceUp = characterCard.faceUp;
         imageBase = characterCard.imageBase;
         cardType = characterCard.cardType;
         characterId = characterCard.characterId;
         typesCharacter = characterCard.typesCharacter;
+        skillType1 = characterCard.skillType1;
+        skillType2 = characterCard.skillType2;
         accuracy = characterCard.accuracy;
         draw = characterCard.draw;
         combat = characterCard.combat;
@@ -63,10 +69,12 @@ public class CharacterCardInstance
         alcoholism = characterCard.alcoholism;
         lust = characterCard.lust;
         treachory = characterCard.treachory;
-        effectAttached = false;
-        effectId = 0;
-        firearmLevel = 0;
-        combatWeaponLevel = 0;
+        managing = false;
+        managingId = 0;
+        closeCombat1Level = 0;
+        closeCombat2Level = 0;
+        pistolLevel = 0;
+        rifleLevel = 0;
         notoriety = 0;
         affiliations = characterCard.affiliations;
         color = characterCard.color;

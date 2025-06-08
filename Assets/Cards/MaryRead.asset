@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
+  m_Name: MaryRead
+  m_EditorClassIdentifier: 
+  cardName: Mary Read
+  cost: 5
+  imageBase: {fileID: 414038510174112410, guid: 7ddd01bfdb3ef0b41ae3e34647d56a0b, type: 3}
+  cardType: Character
+  characterId: 7
+  typesCharacter:
+  - Thief
+  skillType1: 0
+  skillType2: 0
+  accuracy: 8
+  draw: 18
+  combat: 8
+  toughness: 9
+  temperment: MT
+  alcoholism: 12
+  lust: 6
+  treachory: 1
+  affiliations:
+  - JRC
+  color: Blue
+  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
+  resourceIcon2: {fileID: 0}
+  theftWealth: 0e0000000800000003000000
+  theftPreciousMetals: 
+  theftCattle: 
+  theftInvestment: 
+  theftOther: 

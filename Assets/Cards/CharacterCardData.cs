@@ -6,25 +6,20 @@ public class CharacterCard : ScriptableObject
 {
     public string cardName;
     public int cost;
-    public bool faceUp;
     public Sprite imageBase;
     public string cardType;
     public int characterId;
     public List<string> typesCharacter;
+    public int skillType1;
+    public int skillType2;
     public int accuracy;
     public int draw;
     public int combat;
     public int toughness;
-    public int damage;
     public string temperment;
     public int alcoholism;
     public int lust;
     public int treachory;
-    public bool effectAttached;
-    public int effectId;
-    public int firearmLevel;
-    public int combatWeaponLevel;
-    public int notoriety;
     public List<string> affiliations;
     public string color;
     public Sprite resourceIcon1;
