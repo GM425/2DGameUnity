@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 121387331}
   - component: {fileID: 121387330}
   - component: {fileID: 121387329}
+  - component: {fileID: 121387332}
   m_Layer: 5
   m_Name: Preview Panel
   m_TagString: Untagged
@@ -373,6 +374,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121387327}
   m_CullTransparentMesh: 1
+--- !u!114 &121387332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121387327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762f91e62b7f430409b5ba1c8c61a7ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 950412206}
+  cardArtImage: {fileID: 0}
+  namePanel: {fileID: 0}
+  statsPanel: {fileID: 0}
+  backgroundPanel: {fileID: 0}
+  nameCard: {fileID: 0}
+  cost: {fileID: 0}
+  characterImage: {fileID: 0}
+  typeAccentIcon1: {fileID: 0}
+  typeAccentIcon2: {fileID: 0}
+  type: {fileID: 0}
+  descriptionText: {fileID: 0}
+  skillDetails1: {fileID: 0}
+  skillDetails2: {fileID: 0}
+  accuracy: {fileID: 0}
+  combat: {fileID: 0}
+  temperment: {fileID: 0}
+  alcoholism: {fileID: 0}
+  deception: {fileID: 0}
+  lust: {fileID: 0}
+  affiliations: {fileID: 0}
 --- !u!1 &127841400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1587,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669897199}
   m_CullTransparentMesh: 1
+--- !u!114 &722430186 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2501253594276780792, guid: d7e4f35efd4d27349be28fddd69e2873, type: 3}
+  m_PrefabInstance: {fileID: 8447387310923834284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &788981188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,6 +1808,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &950412206 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1256028975819454216, guid: 7f664c1b7aad83a4c817dc7f1e9067fa, type: 3}
+  m_PrefabInstance: {fileID: 4480247328911998978}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &985100486
 GameObject:
   m_ObjectHideFlags: 0
@@ -4083,6 +4139,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408567013}
     m_Modifications:
+    - target: {fileID: -1416392423520695414, guid: 9eec1f3863bc55a458c4156f93beba33, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 722430186}
     - target: {fileID: 2187494378642159381, guid: 9eec1f3863bc55a458c4156f93beba33, type: 3}
       propertyPath: m_Name
       value: CardPreviewCharacter
