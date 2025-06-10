@@ -19,6 +19,8 @@ MonoBehaviour:
   characterId: 1
   typesCharacter:
   - Thief
+  skillType1: 0
+  skillType2: 0
   accuracy: 13
   draw: 24
   combat: 5
@@ -35,6 +37,6 @@ MonoBehaviour:
   resourceIcon2: {fileID: 0}
   theftWealth: 
   theftPreciousMetals: 
-  theftCattle: 100000000600000002000000
+  theftCattle: 110000000600000002000000
   theftInvestment: 
   theftOther: 

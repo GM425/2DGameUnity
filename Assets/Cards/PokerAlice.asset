@@ -13,24 +13,25 @@ MonoBehaviour:
   m_Name: PokerAlice
   m_EditorClassIdentifier: 
   cardName: Poker Alice
-  cost: 6
+  cost: 7
   imageBase: {fileID: 8632019473753314081, guid: 3babbbf9ae6763946b7695573097f01a, type: 3}
   cardType: Character
   characterId: 5
   typesCharacter:
   - Gambler
-  skillType1: 0
-  skillType2: 0
-  accuracy: 0
-  draw: 0
-  combat: 0
-  toughness: 0
-  temperment: 
-  alcoholism: 0
-  lust: 0
-  treachory: 0
+  - Business Owner
+  skillType1: 14
+  skillType2: 30
+  accuracy: 9
+  draw: 30
+  combat: 4
+  toughness: 5
+  temperment: CCC
+  alcoholism: 10
+  lust: 4
+  treachory: 3
   affiliations: []
-  color: 
+  color: Green
   resourceIcon1: {fileID: 0}
   resourceIcon2: {fileID: 0}
   theftWealth: 

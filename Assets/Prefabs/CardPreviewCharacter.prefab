@@ -461,7 +461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0007019043, y: -4.0601}
+  m_AnchoredPosition: {x: 0.0007324219, y: -4.0601196}
   m_SizeDelta: {x: -0.0014, y: 8.1299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3458301429420118279
@@ -647,6 +647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571582095528128860}
+  - component: {fileID: -1416392423520695414}
   m_Layer: 5
   m_Name: CardPreviewCharacter
   m_TagString: Untagged
@@ -671,11 +672,44 @@ RectTransform:
   - {fileID: 7360425288663065079}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1241, y: -596}
-  m_SizeDelta: {x: 400, y: 500}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -39, y: 124}
+  m_SizeDelta: {x: -2160, y: -940}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &-1416392423520695414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187494378642159381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762f91e62b7f430409b5ba1c8c61a7ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1168386508249370950}
+  cardArtImage: {fileID: 5747698033400261565}
+  namePanel: {fileID: 0}
+  statsPanel: {fileID: 0}
+  backgroundPanel: {fileID: 0}
+  nameCard: {fileID: 0}
+  cost: {fileID: 0}
+  characterImage: {fileID: 0}
+  typeAccentIcon1: {fileID: 0}
+  typeAccentIcon2: {fileID: 0}
+  type: {fileID: 0}
+  descriptionText: {fileID: 0}
+  skillDetails1: {fileID: 0}
+  skillDetails2: {fileID: 0}
+  accuracy: {fileID: 0}
+  combat: {fileID: 0}
+  temperment: {fileID: 0}
+  alcoholism: {fileID: 0}
+  deception: {fileID: 0}
+  lust: {fileID: 0}
+  affiliations: {fileID: 0}
 --- !u!1 &3381778546527960099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,7 +1302,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.3918, y: 202.68}
+  m_AnchoredPosition: {x: -0.3918457, y: 202.68}
   m_SizeDelta: {x: -34.2788, y: -443.4799}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5175917948676499528
@@ -1574,7 +1608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.1985931, y: -139.82135}
+  m_AnchoredPosition: {x: -1.1986084, y: -139.82135}
   m_SizeDelta: {x: -31.5924, y: -313.9393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7419872471454491730

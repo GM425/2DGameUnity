@@ -4,8 +4,8 @@ public class EntryListPopulator : MonoBehaviour
 {
     public CharacterCardLibrary entryLibraryCharacter; // drag your SO here
     public GameObject entryPrefab; // drag the EntryItem prefab here
-    public Transform contentParent; // drag the ScrollView/Viewport/Content object here
-
+    public Transform contentParent;
+    [SerializeField] public CardPreviewSpawner referenceToSpawner;
 
     void Start()
     {
@@ -19,7 +19,17 @@ public class EntryListPopulator : MonoBehaviour
         {
             GameObject itemGO = Instantiate(entryPrefab, contentParent);
             var ui = itemGO.GetComponent<EntryItemUI>();
-            ui.Setup(character, this);
+            ui.previewSpawner = referenceToSpawner;
+            if (referenceToSpawner == null)
+            {
+                Debug.LogWarning("previewSpawner is null when being passed into EntryListPopulator!");
+            }
+            else
+            {
+                   Debug.LogWarning("previewSpawner not null when being passed into EntryListPopulator!");
+            }
+            ui.previewSpawner = referenceToSpawner;
+            ui.Setup(character);
         }
     }
 }

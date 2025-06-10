@@ -14,24 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Belle Starr
   cost: 6
-  imageBase: {fileID: 0}
-  cardType: 
-  characterId: 0
-  typesCharacter: []
-  accuracy: 0
-  draw: 0
-  combat: 0
-  toughness: 0
-  temperment: 
-  alcoholism: 0
-  lust: 0
-  treachory: 0
-  affiliations: []
-  color: 
-  resourceIcon1: {fileID: 0}
-  resourceIcon2: {fileID: 0}
-  theftWealth: 
+  imageBase: {fileID: 80322288345315173, guid: 45d0b4793dd441541b4ee2a2f3a848d8, type: 3}
+  cardType: Character
+  characterId: 4
+  typesCharacter:
+  - Thief
+  skillType1: 0
+  skillType2: 0
+  accuracy: 12
+  draw: 24
+  combat: 5
+  toughness: 6
+  temperment: MT
+  alcoholism: 8
+  lust: 6
+  treachory: 3
+  affiliations:
+  - JYG
+  color: Red
+  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
+  resourceIcon2: {fileID: -5723303571347355426, guid: 5fcc0ec5b6668934698c3e2bc8fb4129, type: 3}
+  theftWealth: 080000000500000002000000
   theftPreciousMetals: 
-  theftCattle: 
+  theftCattle: 0a0000000500000002000000
   theftInvestment: 
   theftOther: 

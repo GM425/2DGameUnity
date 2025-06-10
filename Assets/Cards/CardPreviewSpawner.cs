@@ -3,35 +3,35 @@ using System.Collections.Generic;
 public class CardPreviewSpawner : MonoBehaviour
 {
     public GameObject characterPreviewPrefab;
-    public GameObject effectPreviewPrefab;
-    public GameObject itemPreviewPrefab;
 
     public Transform canvasParent; // set to your Canvas Transform
 
     public PlayerState playerState;
+    public CardPreviewSpawner previewSpawner;
 
-    public void ShowPreview()
+    
+
+    public void ShowPreview(CharacterCard characterCard)
     {
-        GameObject prefabToUse = null;
-
-        switch (playerState.libraryType)
+        // GameObject instance = Instantiate(characterPreviewPrefab, canvasParent);
+        // var preview = instance.GetComponent<CardDisplayUI>();
+        // preview.playerState = playerState; // or pass in card data
+        Debug.Log("Preview ran ");
+        foreach (Transform child in canvasParent)
         {
-            case LibraryType.Character:
-                prefabToUse = characterPreviewPrefab;
-                break;
-            case LibraryType.Effect:
-                prefabToUse = effectPreviewPrefab;
-                break;
-            case LibraryType.Item:
-                prefabToUse = itemPreviewPrefab;
-                break;
-            default:
-                Debug.LogWarning("Unknown library type: " + playerState.libraryType);
-                return;
+            GameObject.Destroy(child.gameObject);
         }
 
-        GameObject instance = Instantiate(prefabToUse, canvasParent);
-        // CardPreviewUI preview = instance.GetComponent<CardPreviewUI>();
-        // preview.playerState = playerState; // or pass in card data
+        GameObject preview = Instantiate(characterPreviewPrefab, canvasParent);
+        CardDisplayUI ui = preview.GetComponent<CardDisplayUI>();
+        RectTransform rect = preview.GetComponent<RectTransform>();
+        rect.anchoredPosition = Vector2.zero;
+        rect.localScale = Vector3.one;
+        rect.offsetMin = Vector2.zero;
+        rect.offsetMax = Vector2.zero;
+
+        // var ui = preview.GetComponent<CardDisplayUI>();
+        // ui.previewSpawner = this; // Assign this before calling Setup
+        ui.Setup(characterCard);
     }
 }

@@ -12,28 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
   m_Name: JohnnyRingo
   m_EditorClassIdentifier: 
-  cardName: 
-  cost: 0
-  imageBase: {fileID: 0}
-  cardType: 
-  characterId: 0
-  typesCharacter: []
+  cardName: Johnny Ringo
+  cost: 6
+  imageBase: {fileID: 2830423311981156969, guid: 98e5a427108d15047b7ea9e63846a521, type: 3}
+  cardType: Character
+  characterId: 6
+  typesCharacter:
+  - Thief
   skillType1: 0
   skillType2: 0
-  accuracy: 0
-  draw: 0
-  combat: 0
-  toughness: 0
-  temperment: 
-  alcoholism: 0
-  lust: 0
-  treachory: 0
-  affiliations: []
-  color: 
-  resourceIcon1: {fileID: 0}
+  accuracy: 11
+  draw: 24
+  combat: 7
+  toughness: 8
+  temperment: HH
+  alcoholism: 16
+  lust: 12
+  treachory: 5
+  affiliations:
+  - CCC
+  color: Red
+  resourceIcon1: {fileID: -5723303571347355426, guid: 5fcc0ec5b6668934698c3e2bc8fb4129, type: 3}
   resourceIcon2: {fileID: 0}
   theftWealth: 
   theftPreciousMetals: 
-  theftCattle: 
+  theftCattle: 0e0000000600000002000000
   theftInvestment: 
   theftOther: 

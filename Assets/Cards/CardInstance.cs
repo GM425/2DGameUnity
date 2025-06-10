@@ -2,10 +2,10 @@ using UnityEngine;
 
 public abstract class CardInstance
 {
-    public CardData cardData;
+    public CharacterCard characterCard;
 
-    public CardInstance(CardData data)
+    public CardInstance(CharacterCard data)
     {
-        cardData = data;
+        characterCard = data;
     }
 }
