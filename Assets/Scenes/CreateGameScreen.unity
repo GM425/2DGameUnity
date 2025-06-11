@@ -387,6 +387,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterImage: {fileID: 0}
+  redCharacterStatsBackground: {fileID: 6788441484614910435, guid: a375cd6b5651a454fa1f053db68d9043, type: 3}
+  blueCharacterStatsBackground: {fileID: -3184814098259736681, guid: 6a964dae1061660469a385cf82d9b555, type: 3}
+  orangeCharacterStatsBackground: {fileID: -1128051073147039687, guid: 5094f710649d0f94aa073087058693d5, type: 3}
+  yellowCharacterStatsBackground: {fileID: -6442794363617821702, guid: cfcc4238c3d4c664da9f3bf78ec5421a, type: 3}
+  greenCharacterStatsBackground: {fileID: -5768829933613304832, guid: 62b679335f0b9034f90492f7f77c08c1, type: 3}
+  purpleCharacterStatsBackground: {fileID: 4712204904942793507, guid: bcc0294f2f653904087f6a2a7d89e6eb, type: 3}
   nameText: {fileID: 950412206}
   cardArtImage: {fileID: 0}
   namePanel: {fileID: 0}
@@ -4560,11 +4566,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571582095528128860, guid: 9eec1f3863bc55a458c4156f93beba33, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2508
+      value: 3012
       objectReference: {fileID: 0}
     - target: {fileID: 4571582095528128860, guid: 9eec1f3863bc55a458c4156f93beba33, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -357
+      value: -633
       objectReference: {fileID: 0}
     - target: {fileID: 4571582095528128860, guid: 9eec1f3863bc55a458c4156f93beba33, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
