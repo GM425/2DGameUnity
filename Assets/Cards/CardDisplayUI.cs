@@ -30,7 +30,12 @@ using System;
 public class CardDisplayUI : MonoBehaviour
 {
     public Image characterImage;
-
+    [SerializeField] private Sprite redCharacterStatsBackground;
+    [SerializeField] private Sprite blueCharacterStatsBackground;
+    [SerializeField] private Sprite orangeCharacterStatsBackground;
+    [SerializeField] private Sprite yellowCharacterStatsBackground;
+    [SerializeField] private Sprite greenCharacterStatsBackground;
+    [SerializeField] private Sprite purpleCharacterStatsBackground;
     [SerializeField] public TextMeshProUGUI nameText;
     [SerializeField] private Image cardArtImage;
 
@@ -64,38 +69,86 @@ public class CardDisplayUI : MonoBehaviour
     {
         character = characterCard;
         Debug.Log("Setup function to conditional render prefab ran for -" + characterCard.cardName);
-        namePanel = GetComponentInChildren<Image>();
         characterImage = transform.Find("characterImage").GetComponent<Image>();;
         characterImage.sprite = characterCard.imageBase;
+        statsPanel = transform.Find("statsPanel").GetComponent<Image>();;
+        if (characterCard.color == "Red")
+        {
+            statsPanel.sprite = redCharacterStatsBackground;
+        } else if (characterCard.color == "Blue")
+        {
+            statsPanel.sprite = blueCharacterStatsBackground;
+        } else if (characterCard.color == "Yellow")
+        {
+            statsPanel.sprite = yellowCharacterStatsBackground;
+        } else if (characterCard.color == "Orange")
+        {
+            statsPanel.sprite = orangeCharacterStatsBackground;
+        } else if (characterCard.color == "Purple")
+        {
+            statsPanel.sprite = purpleCharacterStatsBackground;
+        } else if (characterCard.color == "Green")
+        {
+            statsPanel.sprite = greenCharacterStatsBackground;
+        } else if (characterCard.color == "Red")
+        {
+            statsPanel.sprite = redCharacterStatsBackground;
+        } else
+        {
+            statsPanel.sprite = blueCharacterStatsBackground;
+        }
+
+        cost = transform.Find("backgroundPanel/cost").GetComponent<TextMeshProUGUI>();
+        cost.text = characterCard.cost.ToString();
+
+        accuracy = transform.Find("statsPanel/accuracy").GetComponent<TextMeshProUGUI>();
+        accuracy.text = characterCard.draw.ToString() + "/" + characterCard.accuracy.ToString();
+
+        combat = transform.Find("statsPanel/combat").GetComponent<TextMeshProUGUI>();
+        combat.text = characterCard.combat.ToString() + "/" + characterCard.toughness.ToString();
+
+        temperment = transform.Find("statsPanel/temperment").GetComponent<TextMeshProUGUI>();
+        temperment.text = characterCard.temperment;
+
+        alcoholism = transform.Find("statsPanel/alcoholism").GetComponent<TextMeshProUGUI>();
+        alcoholism.text = characterCard.alcoholism.ToString();
+
+        deception = transform.Find("statsPanel/deception").GetComponent<TextMeshProUGUI>();
+        deception.text = characterCard.treachory.ToString();
+
+        lust = transform.Find("statsPanel/lust").GetComponent<TextMeshProUGUI>();
+        lust.text = characterCard.lust.ToString();
 
         // // THESE LINES are what actually show the card data on screen
         // namePanel = GetComponentInChildren<Image>();
-        nameText = GetComponentInChildren<TextMeshProUGUI>();
+        nameText = transform.Find("backgroundPanel/nameCard").GetComponent<TextMeshProUGUI>();
         nameText.text = characterCard.cardName;
-          if (characterCard.color == "Red")
-            {
-                namePanel.color = new Color32(128, 0, 0, 255);
-            }
-            else if (characterCard.color == "Blue")
-            {
-                namePanel.color = new Color32(0, 0, 204, 255);
+        
+        namePanel = transform.Find("backgroundPanel").GetComponentInChildren<Image>();
+        if (characterCard.color == "Red")
+        {
+            namePanel.color = new Color32(128, 0, 0, 255);
+        }
+        else if (characterCard.color == "Blue")
+        {
+            namePanel.color = new Color32(0, 0, 204, 255);
 
-            }
-            else if (characterCard.color == "Green")
-            {
-                namePanel.color = new Color32(0, 102, 34, 255);
+        }
+        else if (characterCard.color == "Green")
+        {
+            namePanel.color = new Color32(0, 102, 34, 255);
 
-            }
-            else if (characterCard.color == "Orange")
-            {
-                namePanel.color = new Color32(204, 104, 0, 255);
+        }
+        else if (characterCard.color == "Orange")
+        {
+            namePanel.color = new Color32(204, 104, 0, 255);
 
-            }
-            else
-            {
-                namePanel.color = new Color32(150, 150, 150, 255);
+        }
+        else
+        {
+            namePanel.color = new Color32(150, 150, 150, 255);
 
-            }
+        }
         // cardArtImage.sprite = characterCard.imageBase;
 
         // // Optional: set up click behavior

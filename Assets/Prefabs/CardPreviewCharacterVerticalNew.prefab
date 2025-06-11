@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9176471, g: 0.95294124, b: 0.9803922, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -456,13 +456,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 1726435191188715875}
   - component: {fileID: 6035918730223568645}
   m_Layer: 5
-  m_Name: Combat Icon
+  m_Name: combatIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1104,7 +1104,7 @@ GameObject:
   - component: {fileID: 6138082113276990918}
   - component: {fileID: 7453721504135520272}
   m_Layer: 5
-  m_Name: Temperment Icon
+  m_Name: tempermentIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 155187335012681970}
   - component: {fileID: 8067923050416214570}
   m_Layer: 5
-  m_Name: Lust Icon
+  m_Name: lustIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1254,7 +1254,7 @@ GameObject:
   - component: {fileID: 9045943513838916732}
   - component: {fileID: 1162955775727773046}
   m_Layer: 5
-  m_Name: Deception Icon
+  m_Name: deceptionIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1351,7 +1351,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.4, y: 202.68}
+  m_AnchoredPosition: {x: -16, y: 202.68}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4388039985801962705
@@ -1409,13 +1409,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2395,14 +2395,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 762f91e62b7f430409b5ba1c8c61a7ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterImage: {fileID: 0}
+  redCharacterStatsBackground: {fileID: 6788441484614910435, guid: a375cd6b5651a454fa1f053db68d9043, type: 3}
+  blueCharacterStatsBackground: {fileID: -3184814098259736681, guid: 6a964dae1061660469a385cf82d9b555, type: 3}
+  orangeCharacterStatsBackground: {fileID: -1128051073147039687, guid: 5094f710649d0f94aa073087058693d5, type: 3}
+  yellowCharacterStatsBackground: {fileID: -6442794363617821702, guid: cfcc4238c3d4c664da9f3bf78ec5421a, type: 3}
+  greenCharacterStatsBackground: {fileID: -5768829933613304832, guid: 62b679335f0b9034f90492f7f77c08c1, type: 3}
+  purpleCharacterStatsBackground: {fileID: 4712204904942793507, guid: bcc0294f2f653904087f6a2a7d89e6eb, type: 3}
   nameText: {fileID: 0}
   cardArtImage: {fileID: 3089320656027389820}
   namePanel: {fileID: 0}
   statsPanel: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  backgroundPanel: {fileID: 3639600006894539555}
   nameCard: {fileID: 0}
   cost: {fileID: 0}
-  characterImage: {fileID: 0}
   typeAccentIcon1: {fileID: 0}
   typeAccentIcon2: {fileID: 0}
   type: {fileID: 0}
@@ -2777,7 +2783,7 @@ GameObject:
   - component: {fileID: 6660934010006026358}
   - component: {fileID: 2539528170817218450}
   m_Layer: 5
-  m_Name: Alcoholism Icon
+  m_Name: alcoholismIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

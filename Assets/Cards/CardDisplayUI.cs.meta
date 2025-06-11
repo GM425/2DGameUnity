@@ -1,2 +1,38 @@
 fileFormatVersion: 2
 guid: 762f91e62b7f430409b5ba1c8c61a7ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - characterImage: {instanceID: 0}
+  - redCharacterStatsBackground: {fileID: 6788441484614910435, guid: a375cd6b5651a454fa1f053db68d9043, type: 3}
+  - blueCharacterStatsBackground: {fileID: -3184814098259736681, guid: 6a964dae1061660469a385cf82d9b555, type: 3}
+  - orangeCharacterStatsBackground: {fileID: -1128051073147039687, guid: 5094f710649d0f94aa073087058693d5, type: 3}
+  - yellowCharacterStatsBackground: {fileID: -6442794363617821702, guid: cfcc4238c3d4c664da9f3bf78ec5421a, type: 3}
+  - greenCharacterStatsBackground: {fileID: -5768829933613304832, guid: 62b679335f0b9034f90492f7f77c08c1, type: 3}
+  - purpleCharacterStatsBackground: {fileID: 4712204904942793507, guid: bcc0294f2f653904087f6a2a7d89e6eb, type: 3}
+  - nameText: {instanceID: 0}
+  - cardArtImage: {instanceID: 0}
+  - namePanel: {instanceID: 0}
+  - statsPanel: {instanceID: 0}
+  - backgroundPanel: {instanceID: 0}
+  - nameCard: {instanceID: 0}
+  - cost: {instanceID: 0}
+  - typeAccentIcon1: {instanceID: 0}
+  - typeAccentIcon2: {instanceID: 0}
+  - type: {instanceID: 0}
+  - descriptionText: {instanceID: 0}
+  - skillDetails1: {instanceID: 0}
+  - skillDetails2: {instanceID: 0}
+  - accuracy: {instanceID: 0}
+  - combat: {instanceID: 0}
+  - temperment: {instanceID: 0}
+  - alcoholism: {instanceID: 0}
+  - deception: {instanceID: 0}
+  - lust: {instanceID: 0}
+  - affiliations: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
