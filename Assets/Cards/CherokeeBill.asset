@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Cherokee Bill
   cost: 5
-  imageBase: {fileID: 2855839346726400043, guid: 7c485db888ba9314981508919a0064e5, type: 3}
+  imageBase: {fileID: -5187960173527508128, guid: b6946969d2e76c94bac5c6fb0374947e, type: 3}
   cardType: Character
   characterId: 3
   typesCharacter:

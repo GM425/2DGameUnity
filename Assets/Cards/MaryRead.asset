@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Mary Read
   cost: 5
-  imageBase: {fileID: 414038510174112410, guid: 7ddd01bfdb3ef0b41ae3e34647d56a0b, type: 3}
+  imageBase: {fileID: 4492294226443825495, guid: 9e64c5055e4b87c4bb8d417dedd5fefa, type: 3}
   cardType: Character
   characterId: 7
   typesCharacter:

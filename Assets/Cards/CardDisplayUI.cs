@@ -29,6 +29,8 @@ using System;
 
 public class CardDisplayUI : MonoBehaviour
 {
+    public Image characterImage;
+
     [SerializeField] public TextMeshProUGUI nameText;
     [SerializeField] private Image cardArtImage;
 
@@ -39,7 +41,6 @@ public class CardDisplayUI : MonoBehaviour
     public TextMeshProUGUI nameCard;
     public TextMeshProUGUI cost;
 
-    public Image characterImage;
 
     public Image typeAccentIcon1;
     public Image typeAccentIcon2;
@@ -64,10 +65,12 @@ public class CardDisplayUI : MonoBehaviour
         character = characterCard;
         Debug.Log("Setup function to conditional render prefab ran for -" + characterCard.cardName);
         namePanel = GetComponentInChildren<Image>();
+        characterImage = transform.Find("characterImage").GetComponent<Image>();;
+        characterImage.sprite = characterCard.imageBase;
 
         // // THESE LINES are what actually show the card data on screen
         // namePanel = GetComponentInChildren<Image>();
-        // nameCard = GetComponentInChildren<TextMeshProUGUI>();
+        nameText = GetComponentInChildren<TextMeshProUGUI>();
         nameText.text = characterCard.cardName;
           if (characterCard.color == "Red")
             {

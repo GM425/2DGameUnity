@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Billy The Kid
   cost: 8
-  imageBase: {fileID: -4464218376766894232, guid: 4226f34422e79e141ba7bd5819d1214c, type: 3}
+  imageBase: {fileID: -4081827145182606175, guid: 1178df3ab77ddc940b1cc0e79d16031b, type: 3}
   cardType: Character
   characterId: 1
   typesCharacter:

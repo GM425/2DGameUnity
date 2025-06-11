@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Poker Alice
   cost: 7
-  imageBase: {fileID: 8632019473753314081, guid: 3babbbf9ae6763946b7695573097f01a, type: 3}
+  imageBase: {fileID: -5713603107148410988, guid: 4ef804eb99b166648aec46312b817495, type: 3}
   cardType: Character
   characterId: 5
   typesCharacter:

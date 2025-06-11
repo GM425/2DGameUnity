@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Johnny Ringo
   cost: 6
-  imageBase: {fileID: 2830423311981156969, guid: 98e5a427108d15047b7ea9e63846a521, type: 3}
+  imageBase: {fileID: 3770946713893203171, guid: 3686aea3ac35c384781591454662fd33, type: 3}
   cardType: Character
   characterId: 6
   typesCharacter:

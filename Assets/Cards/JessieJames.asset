@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Jessie James
   cost: 7
-  imageBase: {fileID: 2809278336086201601, guid: 4da850a1e46954748bf94881bd712447, type: 3}
+  imageBase: {fileID: 5860804138688733931, guid: 43536308392b01443a98cc558035c1e5, type: 3}
   cardType: Character
   characterId: 2
   typesCharacter:
   - Thief
+  skillType1: 0
+  skillType2: 0
   accuracy: 13
   draw: 24
   combat: 7
