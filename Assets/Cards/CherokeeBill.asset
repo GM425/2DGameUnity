@@ -18,7 +18,7 @@ MonoBehaviour:
   cardType: Character
   characterId: 3
   typesCharacter:
-  - Thief
+  - Th
   skillType1: 0
   skillType2: 0
   accuracy: 11
@@ -29,12 +29,13 @@ MonoBehaviour:
   alcoholism: 15
   lust: 12
   treachory: 6
+  substanceAbuse: 12
   affiliations:
   - CCC
   color: Orange
-  resourceIcon1: {fileID: -5723303571347355426, guid: 5fcc0ec5b6668934698c3e2bc8fb4129, type: 3}
+  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
   resourceIcon2: {fileID: 0}
-  theftWealth: 
+  theftWealth: 090000000800000005000000
   theftPreciousMetals: 
   theftCattle: 
   theftInvestment: 

@@ -11,6 +11,7 @@ MonoImporter:
   - yellowCharacterStatsBackground: {fileID: -6442794363617821702, guid: cfcc4238c3d4c664da9f3bf78ec5421a, type: 3}
   - greenCharacterStatsBackground: {fileID: -5768829933613304832, guid: 62b679335f0b9034f90492f7f77c08c1, type: 3}
   - purpleCharacterStatsBackground: {fileID: 4712204904942793507, guid: bcc0294f2f653904087f6a2a7d89e6eb, type: 3}
+  - gamblingIcon: {fileID: 8604931732232867328, guid: 2cc2cf1ee8dbf504086726f343f62969, type: 3}
   - nameText: {instanceID: 0}
   - cardArtImage: {instanceID: 0}
   - namePanel: {instanceID: 0}

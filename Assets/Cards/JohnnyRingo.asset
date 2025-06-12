@@ -18,7 +18,7 @@ MonoBehaviour:
   cardType: Character
   characterId: 6
   typesCharacter:
-  - Thief
+  - Th
   skillType1: 0
   skillType2: 0
   accuracy: 11
@@ -29,6 +29,7 @@ MonoBehaviour:
   alcoholism: 16
   lust: 12
   treachory: 5
+  substanceAbuse: 8
   affiliations:
   - CCC
   color: Red

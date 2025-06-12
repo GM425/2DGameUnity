@@ -18,7 +18,7 @@ MonoBehaviour:
   cardType: Character
   characterId: 1
   typesCharacter:
-  - Thief
+  - Th
   skillType1: 0
   skillType2: 0
   accuracy: 13
@@ -29,9 +29,9 @@ MonoBehaviour:
   alcoholism: 12
   lust: 16
   treachory: 2
+  substanceAbuse: 3
   affiliations:
-  - LCReg
-  - LCRus
+  - LCR
   color: Red
   resourceIcon1: {fileID: -5723303571347355426, guid: 5fcc0ec5b6668934698c3e2bc8fb4129, type: 3}
   resourceIcon2: {fileID: 0}

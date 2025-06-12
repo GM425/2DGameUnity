@@ -18,7 +18,7 @@ MonoBehaviour:
   cardType: Character
   characterId: 4
   typesCharacter:
-  - Thief
+  - Th
   skillType1: 0
   skillType2: 0
   accuracy: 12
@@ -29,6 +29,7 @@ MonoBehaviour:
   alcoholism: 8
   lust: 6
   treachory: 3
+  substanceAbuse: 1
   affiliations:
   - JYG
   color: Red

@@ -18,7 +18,7 @@ MonoBehaviour:
   cardType: Character
   characterId: 7
   typesCharacter:
-  - Thief
+  - Th
   skillType1: 0
   skillType2: 0
   accuracy: 8
@@ -29,6 +29,7 @@ MonoBehaviour:
   alcoholism: 12
   lust: 6
   treachory: 1
+  substanceAbuse: 4
   affiliations:
   - JRC
   color: Blue

@@ -18,7 +18,7 @@ MonoBehaviour:
   cardType: Character
   characterId: 2
   typesCharacter:
-  - Thief
+  - Th
   skillType1: 0
   skillType2: 0
   accuracy: 13
@@ -29,12 +29,13 @@ MonoBehaviour:
   alcoholism: 14
   lust: 12
   treachory: 3
+  substanceAbuse: 5
   affiliations:
   - JYG
   color: Blue
   resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
   resourceIcon2: {fileID: 0}
-  theftWealth: 0d0000000900000004000000
+  theftWealth: 0e0000000900000004000000
   theftPreciousMetals: 
   theftCattle: 
   theftInvestment: 

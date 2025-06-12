@@ -20,6 +20,7 @@ public class CharacterCard : ScriptableObject
     public int alcoholism;
     public int lust;
     public int treachory;
+    public int substanceAbuse;
     public List<string> affiliations;
     public string color;
     public Sprite resourceIcon1;

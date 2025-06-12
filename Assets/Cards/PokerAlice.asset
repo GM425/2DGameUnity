@@ -18,10 +18,10 @@ MonoBehaviour:
   cardType: Character
   characterId: 5
   typesCharacter:
-  - Gambler
-  - Business Owner
+  - Ga
+  - Bu
   skillType1: 14
-  skillType2: 30
+  skillType2: 2
   accuracy: 9
   draw: 30
   combat: 4
@@ -30,10 +30,11 @@ MonoBehaviour:
   alcoholism: 10
   lust: 4
   treachory: 3
+  substanceAbuse: 0
   affiliations: []
   color: Green
-  resourceIcon1: {fileID: 0}
-  resourceIcon2: {fileID: 0}
+  resourceIcon1: {fileID: 8604931732232867328, guid: 2cc2cf1ee8dbf504086726f343f62969, type: 3}
+  resourceIcon2: {fileID: 6952254985167144443, guid: 0e114e592e1ae6b44b840ca6199f9997, type: 3}
   theftWealth: 
   theftPreciousMetals: 
   theftCattle: 
