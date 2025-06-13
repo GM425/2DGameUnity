@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
+  m_Name: JohnDillinger
+  m_EditorClassIdentifier: 
+  cardName: John DIllinger
+  cost: 10
+  imageBase: {fileID: -7361903629352617204, guid: 7dd5f1973d1f3ae4089824da6c39d6a1, type: 3}
+  cardType: Character
+  characterId: 11
+  typesCharacter:
+  - Th
+  skillType1: 0
+  skillType2: 0
+  accuracy: 9
+  draw: 18
+  combat: 7
+  toughness: 8
+  temperment: MT
+  alcoholism: 8
+  lust: 16
+  treachory: 0
+  substanceAbuse: 4
+  affiliations:
+  - DC
+  color: Blue
+  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
+  resourceIcon2: {fileID: 0}
+  theftWealth: 100000000600000003000000
+  theftPreciousMetals: 
+  theftCattle: 
+  theftInvestment: 
+  theftOther: 

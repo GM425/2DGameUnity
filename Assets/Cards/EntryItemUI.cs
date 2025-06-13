@@ -184,7 +184,7 @@ public class EntryItemUI : MonoBehaviour
             }
             else if (characterCard.color == "Blue")
             {
-                namePanel.color = new Color32(0, 0, 204, 255);
+                namePanel.color = new Color32(0, 0, 240, 255);
 
             }
             else if (characterCard.color == "Green")
@@ -197,11 +197,21 @@ public class EntryItemUI : MonoBehaviour
                 namePanel.color = new Color32(204, 104, 0, 255);
 
             }
-            else
+            else if (characterCard.color == "Yellow")
+            {
+                namePanel.color = new Color32(204, 153, 0, 255);
+
+            }
+            else if (characterCard.color == "Purple")
+            {
+                namePanel.color = new Color32(82, 0, 204, 255);
+
+            } else
             {
                 namePanel.color = new Color32(150, 150, 150, 255);
 
             }
+           
 
         }
 

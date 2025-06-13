@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5665921220b71964783a77706c8128f2
+guid: ff4cda397af47334d88dc87bc6e970dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4055852426492594263
-    second: RecSubstanceDuo_0
+      213: 5156235110926832065
+    second: AlCaponeCroppedVertically_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RecSubstanceDuo_0
+      name: AlCaponeCroppedVertically_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 36
-        width: 570
-        height: 570
+        x: 0
+        y: 0
+        width: 454
+        height: 898
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7584f760b48494830800000000000000
-      internalID: 4055852426492594263
+      spriteID: 1c1d035b380ae8740800000000000000
+      internalID: 5156235110926832065
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      RecSubstanceDuo_0: 4055852426492594263
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
