@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
   m_Name: JohnDillinger
   m_EditorClassIdentifier: 
-  cardName: John DIllinger
+  cardName: John Dillinger
   cost: 10
   imageBase: {fileID: -7361903629352617204, guid: 7dd5f1973d1f3ae4089824da6c39d6a1, type: 3}
   cardType: Character
