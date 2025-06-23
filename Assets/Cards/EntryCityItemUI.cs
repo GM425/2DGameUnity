@@ -4,24 +4,22 @@ using TMPro;
 using System;
 using UnityEditor.ShaderGraph;
 
-public class EntryItemUI : MonoBehaviour
+public class EntryCityItemUI : MonoBehaviour
 {
     public TextMeshProUGUI cardNameText;
 
     public Button viewButton;
-    public Button addButton;
-
-    public CharacterCard characterCard;
+    public CityCard cityCard;
     // private EntryListPopulator populator;
-    [SerializeField] public CardPreviewSpawner previewSpawner;
+    [SerializeField] public CityCardPreviewSpawner cityCardPreviewSpawner;
     public Image namePanel;
     public TextMeshProUGUI nameCard;
     // public CardPreviewSpawner cardPreviewSpawner;
     // [SerializeField] public CardPreviewSpawner referenceToSpawner;
 
-    public void Setup(CharacterCard data)
+    public void Setup(CityCard data)
     {
-        characterCard = data;
+        cityCard = data;
         // referenceToSpawner = GetComponentInChildren<Image>();
         namePanel = GetComponentInChildren<Image>();
         nameCard = GetComponentInChildren<TextMeshProUGUI>();
@@ -30,36 +28,36 @@ public class EntryItemUI : MonoBehaviour
         Debug.Log("Character Name: " + data.name);
 
 
-        if (characterCard is CharacterCard baseData)
+        if (cityCard is CityCard baseData)
         {
-            Debug.Log("If Statement ran for -" + characterCard.cardName);
+            Debug.Log("If Statement ran for -" + cityCard.cardName);
 
-            nameCard.text = characterCard.cardName;
-            if (characterCard.color == "Red")
+            nameCard.text = cityCard.cardName;
+            if (cityCard.color == "Red")
             {
                 namePanel.color = new Color32(128, 0, 0, 255);
             }
-            else if (characterCard.color == "Blue")
+            else if (cityCard.color == "Blue")
             {
                 namePanel.color = new Color32(0, 0, 240, 255);
 
             }
-            else if (characterCard.color == "Green")
+            else if (cityCard.color == "Green")
             {
                 namePanel.color = new Color32(0, 102, 34, 255);
 
             }
-            else if (characterCard.color == "Orange")
+            else if (cityCard.color == "Orange")
             {
                 namePanel.color = new Color32(204, 104, 0, 255);
 
             }
-            else if (characterCard.color == "Yellow")
+            else if (cityCard.color == "Yellow")
             {
                 namePanel.color = new Color32(204, 153, 0, 255);
 
             }
-            else if (characterCard.color == "Purple")
+            else if (cityCard.color == "Purple")
             {
                 namePanel.color = new Color32(82, 0, 204, 255);
 
@@ -75,21 +73,20 @@ public class EntryItemUI : MonoBehaviour
 
         viewButton.onClick.AddListener(() =>
         {
-            Debug.Log("listener added //////////////////////////////" + characterCard);
+            Debug.Log("listener added //////////////////////////////" + cityCard);
 
-            if (previewSpawner == null)
+            if (cityCardPreviewSpawner == null)
             {
                 Debug.LogWarning("previewSpawner is null!");
                 return;
             }
             else
             {
-                Debug.LogWarning("this is previewSpawner" + previewSpawner);
+                Debug.LogWarning("this is previewSpawner" + cityCardPreviewSpawner);
 
             }
 
-            previewSpawner.ShowPreview(characterCard);
+            cityCardPreviewSpawner.ShowPreview(cityCard);
         });
-        // addButton.onClick.AddListener(() => populator.AddToDeck(cardData));
     }
 }

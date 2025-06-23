@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6514163142623242602}
   - component: {fileID: 1453816555202904672}
   m_Layer: 5
-  m_Name: typeAccentIcon2
+  m_Name: investmentImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 891957093669979922}
   - component: {fileID: 1958669512918301064}
   m_Layer: 5
-  m_Name: typeAccentIcon1
+  m_Name: costImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 7694621335287994585}
   - component: {fileID: 5851653005198906607}
   m_Layer: 5
-  m_Name: temperment
+  m_Name: requirements
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 6992479643958878533}
   - component: {fileID: 4471101928481940584}
   m_Layer: 5
-  m_Name: Deception Icon
+  m_Name: territoryResourcesImg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 116473687427679667}
   - component: {fileID: 4746769451481202178}
   m_Layer: 5
-  m_Name: Temperment Icon
+  m_Name: territoryResourcesImg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 3751811390318687993}
   - component: {fileID: 4095415635070931239}
   m_Layer: 5
-  m_Name: Lust Icon
+  m_Name: territoryResourcesImg3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1487,7 +1487,7 @@ GameObject:
   - component: {fileID: 5041436898186244054}
   - component: {fileID: 4613518370246852560}
   m_Layer: 5
-  m_Name: Combat Icon
+  m_Name: territoryResourcesImg4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

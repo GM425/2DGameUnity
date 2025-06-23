@@ -9,10 +9,11 @@ public class CityCard : ScriptableObject
     public int locationId;
     public string cardName;
     public Sprite locationImage;
-    public Sprite typeAccentIcon1;
-    public Sprite typeAccentIcon2;
-    public Sprite typeAccentIcon3;
-    public Sprite typeAccentIcon4;
+    public string requirements;
+    public Sprite territoryResourceIcon1;
+    public Sprite territoryResourceIcon2;
+    public Sprite territoryResourceIcon3;
+    public Sprite territoryResourceIcon4;
     public bool business;
     public string businessType;
     public int maxHerd;

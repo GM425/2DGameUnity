@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class EntryListPopulator : MonoBehaviour
+public class EntryPopulatorCity : MonoBehaviour
 {
-    public CharacterCardLibrary entryLibraryCharacter; // drag your SO here
+    public CityCardLibrary cityCardLibrary; // drag your SO here
     public GameObject entryPrefab; // drag the EntryItem prefab here
     public Transform contentParent;
-    [SerializeField] public CardPreviewSpawner referenceToSpawner;
+    [SerializeField] public CityCardPreviewSpawner cityCardPreviewSpawner;
 
     void Start()
     {
@@ -14,13 +14,12 @@ public class EntryListPopulator : MonoBehaviour
 
     void PopulateListCharacters()
     {
-        Debug.Log("Library Count: " + entryLibraryCharacter.characters.Count);
-        foreach (var character in entryLibraryCharacter.characters)
+        foreach (var city in cityCardLibrary.cityCards)
         {
             GameObject itemGO = Instantiate(entryPrefab, contentParent);
-            var ui = itemGO.GetComponent<EntryItemUI>();
-            // ui.previewSpawner = referenceToSpawner;
-            if (referenceToSpawner == null)
+            var ui = itemGO.GetComponent<EntryCityItemUI>();
+            // ui.cityCardPreviewSpawner = cityCardPreviewSpawner;
+            if (cityCardPreviewSpawner == null)
             {
                 Debug.LogWarning("previewSpawner is null when being passed into EntryListPopulator!");
             }
@@ -28,8 +27,8 @@ public class EntryListPopulator : MonoBehaviour
             {
                    Debug.LogWarning("previewSpawner not null when being passed into EntryListPopulator!");
             }
-            ui.previewSpawner = referenceToSpawner;
-            ui.Setup(character);
+            ui.cityCardPreviewSpawner = cityCardPreviewSpawner;
+            ui.Setup(city);
         }
     }
 }

@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class CityCardLibrary{
+[CreateAssetMenu(menuName = "Cards/CityCardLibrary")]
+public class CityCardLibrary : ScriptableObject
+{
     public List<CityCard> cityCards;
 }
