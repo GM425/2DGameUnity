@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cityCards:
   - {fileID: 11400000, guid: 44c8f74f4bf03864eb57817816128e0a, type: 2}
+  - {fileID: 11400000, guid: 3e3e65ae80e3102459606835f74add24, type: 2}
+  - {fileID: 11400000, guid: e1da97584376d58458794f187c4cea3a, type: 2}

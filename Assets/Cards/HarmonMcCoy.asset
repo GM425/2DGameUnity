@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
   m_Name: HarmonMcCoy
   m_EditorClassIdentifier: 
-  cardName: Harmon M.
+  cardName: Harmon McCoy
   cost: 5
   imageBase: {fileID: 1232180623505022763, guid: e711a47d3fbc466458b8214b32425b35, type: 3}
   cardType: Character

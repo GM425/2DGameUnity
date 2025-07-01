@@ -10,32 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
-  m_Name: MaryRead
+  m_Name: StagecoachMary
   m_EditorClassIdentifier: 
-  cardName: Mary Read
-  cost: 5
-  imageBase: {fileID: 4492294226443825495, guid: 9e64c5055e4b87c4bb8d417dedd5fefa, type: 3}
+  cardName: Stagecoach Mary
+  cost: 8
+  imageBase: {fileID: -1563360149419755267, guid: 3de66767dc200bf47834cb33beb56551, type: 3}
   cardType: Character
-  characterId: 7
+  characterId: 14
   typesCharacter:
-  - Th
-  skillType1: 4
+  - Bu
+  skillType1: 0
   skillType2: 0
-  accuracy: 8
-  draw: 18
-  combat: 8
-  toughness: 9
-  temperment: MT
-  alcoholism: 12
-  lust: 6
-  treachory: 1
-  substanceAbuse: 4
-  affiliations:
-  - JRC
-  color: Blue
-  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
+  accuracy: 11
+  draw: 24
+  combat: 9
+  toughness: 10
+  temperment: CC
+  alcoholism: 10
+  lust: 0
+  treachory: 0
+  substanceAbuse: 0
+  affiliations: []
+  color: Yellow
+  resourceIcon1: {fileID: 6952254985167144443, guid: 0e114e592e1ae6b44b840ca6199f9997, type: 3}
   resourceIcon2: {fileID: 0}
-  theftWealth: 0e0000000800000003000000
+  theftWealth: 
   theftPreciousMetals: 
   theftCattle: 
   theftInvestment: 

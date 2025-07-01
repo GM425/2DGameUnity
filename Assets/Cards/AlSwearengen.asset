@@ -10,31 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
-  m_Name: AlCapone
+  m_Name: AlSwearengen
   m_EditorClassIdentifier: 
-  cardName: Al Capone
-  cost: 10
-  imageBase: {fileID: 5156235110926832065, guid: ff4cda397af47334d88dc87bc6e970dd, type: 3}
+  cardName: Al Swearengen
+  cost: 5
+  imageBase: {fileID: -628616499545091417, guid: fe5f4b0d25a9b62428dfc5c3139d42be, type: 3}
   cardType: Character
-  characterId: 7
+  characterId: 12
   typesCharacter:
-  - Kp
+  - Bu
   - Po
-  skillType1: 10
-  skillType2: 8
-  accuracy: 9
+  skillType1: 3
+  skillType2: 2
+  accuracy: 10
   draw: 18
-  combat: 11
-  toughness: 15
+  combat: 7
+  toughness: 8
   temperment: T
   alcoholism: 15
-  lust: 15
-  treachory: 5
-  substanceAbuse: 5
-  affiliations:
-  - TO
+  lust: 13
+  treachory: 8
+  substanceAbuse: 6
+  affiliations: []
   color: Black
-  resourceIcon1: {fileID: 4055852426492594263, guid: 5665921220b71964783a77706c8128f2, type: 3}
+  resourceIcon1: {fileID: 6952254985167144443, guid: 0e114e592e1ae6b44b840ca6199f9997, type: 3}
   resourceIcon2: {fileID: 2766703443475971366, guid: 8edb7ae45cfaa8a498b2a2d878dd5798, type: 3}
   theftWealth: 
   theftPreciousMetals: 

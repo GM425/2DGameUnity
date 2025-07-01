@@ -12,6 +12,8 @@ public class CardDisplayUI : MonoBehaviour
     [SerializeField] private Sprite yellowCharacterStatsBackground;
     [SerializeField] private Sprite greenCharacterStatsBackground;
     [SerializeField] private Sprite purpleCharacterStatsBackground;
+    [SerializeField] private Sprite offWhiteCharacterStatsBackground;
+    [SerializeField] private Sprite grayCharacterStatsBackground;
     [SerializeField] public TextMeshProUGUI nameText;
     [SerializeField] private Image cardArtImage;
 
@@ -85,10 +87,19 @@ public class CardDisplayUI : MonoBehaviour
         {
             statsPanel.sprite = redCharacterStatsBackground;
         }
+        else if (characterCard.color == "Black")
+        {
+            statsPanel.sprite = yellowCharacterStatsBackground;
+        }
+        else if (characterCard.color == "GoldBlue")
+        {
+            statsPanel.sprite = blueCharacterStatsBackground;
+        }
         else
         {
             statsPanel.sprite = blueCharacterStatsBackground;
         }
+
 
         cost = transform.Find("backgroundPanel/cost").GetComponent<TextMeshProUGUI>();
         cost.text = characterCard.cost.ToString();
@@ -118,6 +129,21 @@ public class CardDisplayUI : MonoBehaviour
         // namePanel = GetComponentInChildren<Image>();
         nameText = transform.Find("backgroundPanel/nameCard").GetComponent<TextMeshProUGUI>();
         nameText.text = characterCard.cardName;
+        Debug.Log("Name: " + characterCard.cardName);
+        Debug.Log("Size: " + characterCard.cardName.Length);
+        if (characterCard.cardName.Length >= 12)
+        {
+            Debug.Log("Name Size Triggered: " + characterCard.cardName);
+            Debug.Log("Size: " + characterCard.cardName.Length);
+            nameText.fontSize = 30;
+        }
+
+        if (characterCard.cardName.Length >= 15)
+        {
+            Debug.Log("Name Size Triggered: " + characterCard.cardName);
+            Debug.Log("Size: " + characterCard.cardName.Length);
+            nameText.fontSize = 27;
+        }
 
         namePanel = transform.Find("backgroundPanel").GetComponentInChildren<Image>();
         if (characterCard.color == "Red")
@@ -146,6 +172,16 @@ public class CardDisplayUI : MonoBehaviour
         else if (characterCard.color == "Purple")
         {
             namePanel.color = new Color32(82, 0, 204, 255);
+
+        }
+        else if (characterCard.color == "GoldBlue")
+        {
+            namePanel.color = new Color32(204, 153, 0, 255);
+
+        }
+        else if (characterCard.color == "Black")
+        {
+            namePanel.color = new Color32(0, 0, 0, 255);
 
         }
         else

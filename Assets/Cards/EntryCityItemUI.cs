@@ -16,6 +16,13 @@ public class EntryCityItemUI : MonoBehaviour
     public TextMeshProUGUI nameCard;
     // public CardPreviewSpawner cardPreviewSpawner;
     // [SerializeField] public CardPreviewSpawner referenceToSpawner;
+    private void Awake()
+    {
+        // if (cityCardPreviewSpawner == null)
+        // {
+            cityCardPreviewSpawner = FindFirstObjectByType<CityCardPreviewSpawner>();
+        // }
+    }
 
     public void Setup(CityCard data)
     {
@@ -25,7 +32,7 @@ public class EntryCityItemUI : MonoBehaviour
         nameCard = GetComponentInChildren<TextMeshProUGUI>();
 
 
-        Debug.Log("Character Name: " + data.name);
+        Debug.Log("City Name: " + data.name);
 
 
         if (cityCard is CityCard baseData)
@@ -61,12 +68,13 @@ public class EntryCityItemUI : MonoBehaviour
             {
                 namePanel.color = new Color32(82, 0, 204, 255);
 
-            } else
+            }
+            else
             {
                 namePanel.color = new Color32(150, 150, 150, 255);
 
             }
-           
+
 
         }
 

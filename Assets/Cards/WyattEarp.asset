@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c04b4dd24ea8d24382a2d92aad6c66f, type: 3}
-  m_Name: MaryRead
+  m_Name: WyattEarp
   m_EditorClassIdentifier: 
-  cardName: Mary Read
-  cost: 5
-  imageBase: {fileID: 4492294226443825495, guid: 9e64c5055e4b87c4bb8d417dedd5fefa, type: 3}
+  cardName: Wyatt Earp
+  cost: 10
+  imageBase: {fileID: 0}
   cardType: Character
-  characterId: 7
+  characterId: 13
   typesCharacter:
-  - Th
-  skillType1: 4
-  skillType2: 0
-  accuracy: 8
-  draw: 18
-  combat: 8
+  - La
+  - Bo
+  skillType1: 25
+  skillType2: 2
+  accuracy: 12
+  draw: 24
+  combat: 7
   toughness: 9
   temperment: MT
   alcoholism: 12
-  lust: 6
-  treachory: 1
-  substanceAbuse: 4
-  affiliations:
-  - JRC
-  color: Blue
-  resourceIcon1: {fileID: 7831842161320249030, guid: 0ac67ee175eebea4ebde5180b053ef78, type: 3}
-  resourceIcon2: {fileID: 0}
-  theftWealth: 0e0000000800000003000000
+  lust: 13
+  treachory: 0
+  substanceAbuse: 0
+  affiliations: []
+  color: GoldBlue
+  resourceIcon1: {fileID: 906688354065822244, guid: 62dd3da020fe53a48b6ff712d894057b, type: 3}
+  resourceIcon2: {fileID: 6952254985167144443, guid: 0e114e592e1ae6b44b840ca6199f9997, type: 3}
+  theftWealth: 
   theftPreciousMetals: 
   theftCattle: 
   theftInvestment: 

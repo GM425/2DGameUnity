@@ -11,12 +11,15 @@ MonoImporter:
   - yellowCharacterStatsBackground: {fileID: -6442794363617821702, guid: cfcc4238c3d4c664da9f3bf78ec5421a, type: 3}
   - greenCharacterStatsBackground: {fileID: -5768829933613304832, guid: 62b679335f0b9034f90492f7f77c08c1, type: 3}
   - purpleCharacterStatsBackground: {fileID: 4712204904942793507, guid: bcc0294f2f653904087f6a2a7d89e6eb, type: 3}
-  - gamblingIcon: {fileID: 8604931732232867328, guid: 2cc2cf1ee8dbf504086726f343f62969, type: 3}
+  - offWhiteCharacterStatsBackground: {fileID: -4767395202173718807, guid: c821ad90f11f820478e145c5db44c7b9, type: 3}
+  - grayCharacterStatsBackground: {fileID: 959068868372118718, guid: 7f9cf24fa7ff6f5459829f1e3db540bc, type: 3}
   - nameText: {instanceID: 0}
   - cardArtImage: {instanceID: 0}
   - namePanel: {instanceID: 0}
   - statsPanel: {instanceID: 0}
   - backgroundPanel: {instanceID: 0}
+  - imageAccentIcon1: {instanceID: 0}
+  - imageAccentIcon2: {instanceID: 0}
   - nameCard: {instanceID: 0}
   - cost: {instanceID: 0}
   - typeAccentIcon1: {instanceID: 0}
@@ -31,7 +34,11 @@ MonoImporter:
   - alcoholism: {instanceID: 0}
   - deception: {instanceID: 0}
   - lust: {instanceID: 0}
+  - substanceAbuse: {instanceID: 0}
   - affiliations: {instanceID: 0}
+  - theftWealth: {instanceID: 0}
+  - skillsDetails1: {instanceID: 0}
+  - skillsDetails2: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

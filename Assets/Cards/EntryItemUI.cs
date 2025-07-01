@@ -63,7 +63,17 @@ public class EntryItemUI : MonoBehaviour
             {
                 namePanel.color = new Color32(82, 0, 204, 255);
 
-            } else
+            }
+              else if (characterCard.color == "Black")
+            {
+                namePanel.color = new Color32(0, 0, 0, 255);
+
+            }
+            else if (characterCard.color == "GoldBlue")
+            {
+                namePanel.color = new Color32(204, 153, 0, 255);
+            }
+            else
             {
                 namePanel.color = new Color32(150, 150, 150, 255);
 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0306fb586123e3b4297cd6fa58ef2e0f, type: 3}
+  m_Name: TheWildOaksForest
+  m_EditorClassIdentifier: 
+  locationId: 2
+  cardName: Wild Oaks Forest South 1
+  locationImage: {fileID: -5853957616262885276, guid: c066ef331c83c8949935eaa8f7137435, type: 3}
+  requirements: Req / Active Character  w/ the type of Farmer to Manage.
+  territoryResourceIcon1: {fileID: 0}
+  territoryResourceIcon2: {fileID: 0}
+  territoryResourceIcon3: {fileID: 0}
+  territoryResourceIcon4: {fileID: 0}
+  business: 0
+  businessType: NA
+  maxHerd: 0
+  profitTurn: 0
+  profitSell: 0
+  lossLevels: 
+  investmentCost: 0
+  city: Corsica
+  color: Green
